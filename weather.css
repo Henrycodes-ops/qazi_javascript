@@ -1,0 +1,14 @@
+main {
+  margin: auto;
+  width: 15em;
+  text-align: center;
+}
+
+button {
+  margin-top: 0.5rem;
+}
+
+
+li {
+  list-style-type: none;
+}

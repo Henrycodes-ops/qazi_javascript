@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Api using a weather app e.g</title>
+    <link rel="stylesheet" href="weather.css">
+  </head>
+  <body>
+    <main>
+      <h1>Weather</h1>
+      <div class="form-group">
+        <input
+          type="text"
+          id="city-input"
+          class="form-control"
+          placeholder="Search City"
+        />
+      </div>
+      <button type="button" onclick="searchCity()">Search</button>
+      <div id="weather-output">
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-header">
+              <h4 id="city-name"></h4>
+            </div>
+            <div class="card-body">
+              <h1 id="weather-type">---</h1>
+              <ul class="list-unstyled">
+                <li>Temp: <span id="temp">--</span><sup>o</sup></li>
+                <li>Min Temp: <span id="min-temp">--</span><sup>o</sup></li>
+                <li>Max Temp: <span id="max-temp">--</span><sup>o</sup></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./weather.js"></script>
+  </body>
+</html>
